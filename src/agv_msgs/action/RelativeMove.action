@@ -1,0 +1,9 @@
+float64 linear
+float64 angular
+float32 abs_max_linear_vel
+float32 abs_max_angular_vel
+---
+string status
+---
+string diff
+

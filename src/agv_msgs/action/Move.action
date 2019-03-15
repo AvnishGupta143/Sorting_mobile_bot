@@ -1,0 +1,12 @@
+float64 position_x
+float64 position_y
+float64 orientation_z
+float64 orientation_w
+int8 retries
+float32 distance_bias
+---
+bool success
+string status
+---
+string feedback
+

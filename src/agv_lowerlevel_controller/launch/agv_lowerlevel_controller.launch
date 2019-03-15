@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="ip" default="192.168.0.1"/>
+  <!--node name="um7_driver" type="um7_driver" pkg="um7" output="screen"/-->
+
+  <!--node name="imu_publisher" type="imu_pub" pkg="agv_lowerlevel_controller" output="screen"/-->
+  <node pkg="agv_lowerlevel_controller" type="agv_lowerlevel_controller_node" name="agv_lowerlevel_controller" output="screen">
+        <param name="ip" value="$(arg ip)"/>
+    </node>
+
+  <node pkg="barcode_scanner" type="barcode_scan.py" name="barcode_scanner" output="screen" >
+  </node>
+</launch>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="demo_server" type="server.py" name="server" output="screen" respawn = "False">
+  </node>
+</launch>

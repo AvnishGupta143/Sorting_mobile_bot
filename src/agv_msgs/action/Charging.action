@@ -1,0 +1,6 @@
+float64 duraion
+float64 percentage
+---
+string status
+---
+string charging_feedback

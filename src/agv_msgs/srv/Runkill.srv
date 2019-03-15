@@ -1,0 +1,7 @@
+string pkg
+string node 
+string process 
+string args
+---
+bool success
+string message
